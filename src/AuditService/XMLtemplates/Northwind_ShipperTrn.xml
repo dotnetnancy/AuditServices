@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <AuthHeader>
+      <UserName>username</UserName>
+      <Password>password</Password>
+      <LicenseKey>ThisIsMyLicense</LicenseKey>
+    </AuthHeader>
+  </soap:Header>
+  <soap:Body>
+    <ShipperTXN txnid="" status="" submitdate="" action="INSERT">
+      <Order CompanyName="" Phone=""/>
+    </ShipperTXN>
+  </soap:Body>
+</soap:Envelope>
